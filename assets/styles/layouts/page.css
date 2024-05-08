@@ -7,3 +7,27 @@
   margin: 0 auto;
 
 }
+
+figure{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  };
+}
+
+.text-wrap{
+  background-color: var(--color-lighten-strong);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 10;
+
+  padding-left: var(--size-l);
+}

@@ -12,6 +12,8 @@ section {
 
   --border-color: var(--color-darkest);
 
+  background-color: rgb(225, 225, 225);
+
   &.snap-in{
     scroll-snap-align: start;
   }

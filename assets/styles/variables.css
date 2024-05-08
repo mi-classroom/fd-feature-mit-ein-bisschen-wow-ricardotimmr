@@ -37,7 +37,7 @@
 
   /* Sizes */
   /* Renard 10 */
-  --basefont-size: clamp(0.8rem, 2vw, 1.3rem);
+  --basefont-size: clamp(0.9rem, 2vw, 1.3rem);
   --size-xs: calc(var(--basefont-size) * 0.25);
   --size-s: calc(var(--basefont-size) * 0.6);
   --size-m: calc(var(--basefont-size) * 1);
